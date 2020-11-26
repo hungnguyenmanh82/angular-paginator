@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/g11-paginator",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "g11-paginator"
+    }
+  },
+  "defaultProject": "g11-paginator",
+  "cli": {
+    "analytics": "fb35291f-d212-44a6-a6ae-a62913ed5711"
+  }
 }

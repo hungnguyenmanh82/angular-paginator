@@ -3,8 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'g11-paginator';
+  selectedPage: number;
+
+  public onPageChange(selectedPage: number) {
+    //send selectedPage to Server
+    this.selectedPage = selectedPage;
+  }
 }

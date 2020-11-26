@@ -1,0 +1,10 @@
+<!-- pagination -->
+<div class="pagination">
+  <span>{{ totalItems }} items</span>
+  <button (click)="onStartClick()" [disabled]="isStartDisable">&lt;&lt;</button>
+  <button (click)="onBackwardClick()" [disabled]="isBackwardDisable">&lt;</button>
+  <input id="selectedPage" type="number" [(ngModel)]="selectedPage" (keyup.enter)="onEnter()" />
+  <span>of {{ totalPages }} </span>
+  <button (click)="onForwardClick()" [disabled]="isForwardDisable">&gt;</button>
+  <button (click)="onEndClick()" [disabled]="isEndDisable">&gt;&gt;</button>
+</div>
