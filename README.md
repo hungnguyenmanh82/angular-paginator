@@ -1,4 +1,3 @@
 # G11Paginator
-[Demo]()
 
-
+[Demo](https://hungnguyenmanh82.github.io/angular-paginator/)
